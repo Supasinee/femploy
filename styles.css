@@ -1,0 +1,378 @@
+body {
+
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:space-between;
+	
+
+	margin: 0;
+	padding:0;
+	min-height: 100vh;
+
+	font-family: 'Roboto', sans-serif;
+}
+
+body > * {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+/* NAVIGATION SECTION */
+
+nav {
+	color:black;
+	background-color: white;
+	height:80px;
+	width: 100%;
+	max-width:700px;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	font-family: 'Fahkwang';
+	position: sticky;
+}
+
+nav a {
+	text-decoration: none;
+	color:black;
+	margin:0 12px;
+}
+
+nav>a:hover {
+	color: #8859d4;
+}
+
+
+/* HEADER SECTION */
+header {
+	color:black;
+	background-color: #fdf0e6;
+	height:670px;
+	width:100%;
+}
+
+header {
+	background-color: #FDF0E6;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-image: url("assets/pexels-gradient.jpeg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+header h1 {
+	font-size: 64px;
+	margin: 0;
+	font-family: 'Fahkwang';
+	color: #ffffff;
+}
+
+header h2 {
+	font-size: 40px;
+	margin: 0;
+	color: #F45B69;
+	font-family: 'Fahkwang';
+	text-transform: uppercase;
+}
+
+header h3 {
+	font-size: 20px;
+	margin: 0;
+	color: #FFFFFF;
+}
+
+header img {
+	width: 320px;
+	height: 320px;
+	background-color: #fff;
+	border-radius: 100%;
+	margin-left: 40px;
+}
+
+/* ABOUT SECTION */
+#about {
+	color:white;
+	background-color: black;
+	min-height:400px;
+	width:100%;
+	background-image: url("assets/pexels-thisis.jpeg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#about > div {
+	max-width: 640px;
+
+	padding: 16px 40px 16px 40px;
+
+	background-color: rgba(0, 0, 0, 0.7);
+
+	color: white;
+}
+
+#about h2{
+	font-family: 'Fahkwang';
+}
+
+
+/* DIREC SECTION */
+
+#directory{
+	background-color: #FDF0E6;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-image: url("assets/pexels-gradient2.jpeg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+#directory {
+	color: black;
+	background-color: white;
+	min-height:400px;
+	padding: 20px 0;
+	width:100%;
+	flex-direction: column;
+}
+
+#directory h2 {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Fahkwang'
+}
+
+#directory h3 {
+	color: white;
+	text-align: center;
+	width: 800px;
+}
+
+#directory h4{
+	color: white;
+}
+
+#directory p{
+	color: white;
+	font-size: 20px;
+}
+
+#directory a{
+	color: white;
+	text-transform: uppercase;
+}
+
+#directory .column {
+  float: left;
+  width: 30%;
+  margin: 20px 0px 0px 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+#directory @media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+#directory .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+#directory .container {
+  padding: 20px 20px 20px 20px;
+}
+
+
+#directory .container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#directory .title {
+  color: white;
+}
+
+
+/* INSPIRATION SECTION */
+
+#inspiration {
+	color:black;
+	background-color: #fdf0e6;
+	height:1000px;
+	width:100%;
+}
+#inspiration {
+	background-color: #FDF0E6;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-image: url("assets/pexels-gradient.jpeg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#inspiration h2 {
+	text-align: center;
+	font-family: 'Fahkwang';
+}
+
+#inspiration h3 {
+	text-align: center;
+}
+
+#inspiration iframe {
+	padding: 0px 10px 10px 0px;
+}
+
+#inspiration a {
+  background-color: #6566ad;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+
+/* RESOURCES SECTION */
+#resources {
+	color: black;
+	background-color: white;
+	min-height:400px;
+	padding: 20px 0;
+	width:100%;
+	flex-direction: column;
+}
+
+#resources {
+	background-color: #FDF0E6;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-image: url("assets/pexels-gradient.jpeg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#resources h2 {
+	text-align: center;
+	font-family: 'Fahkwang';
+}
+
+#resources h3 {
+	text-align: center;
+}
+
+#resources a {
+  background-color: #6566ad;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+	color:black;
+	background-color: #717dbf;
+	min-height:400px;
+	padding: 20px 0;
+	width:100%;
+	flex-direction: column;
+}
+
+#contact h2 {
+	color: white;
+	text-transform: uppercase;
+}
+
+#contact form {
+	max-width: 640px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contact form>* {
+	font-family: 'Roboto', sans-serif;
+}
+
+#contact input {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	margin-bottom: 16px;
+}
+
+#contact textarea {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	margin-bottom: 16px;
+	height: 120px;
+	resize: none;
+}
+
+#contact button {
+	width: 50%;
+	background-color: #F45B69;
+	color: white;
+	
+	padding: 8px 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+/* FOOTER SECTION */
+
+footer {
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer .links {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width:120px;
+	margin-bottom: 8px;
+}
+
+footer .links img {
+	width: 24px;
+	height: 24px;
+}
