@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<script type="module" src="script.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Fahkwang&family=Roboto&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav>
+			<a href="#home">HOME</a>
+			<a href="#about">ABOUT</a>
+			<a href="#directory">DIRECTORY</a>
+			<a href="#inspiration">INSPIRATION</a>
+			<a href="#resources">RESOURCES</a>
+			<a href="#contact">CONTACT</a>
+		</nav>
+		<header>
+			<div>
+				<h1>Femploy</h1>
+				<h3>For the next generation of women in STEM</h3>
+			</div>
+			<img src="assets/femploylogo.png">
+		</header>
+		<section id="about">
+			<div>
+				<h2>About Femploy</h2>
+				<h3>We are working to bridge the gap for women in STEM by offering resources about potential employers. We also aim to inspire women by sharing stories of female role models in STEM. In addition, we provide resources for women to begin their journey into STEM.</h3>
+				<p></p>
+			</div>
+		</section>
+		<section id="directory">
+			<div>
+				<h2>THE DIRECTORY</h2>
+				<h3>The directory can be used to find top rated tech companies with ratings coming from female identifying employees. Use command+f or control+f to find a specific company.</h3>
+			</div>
+			<div class="row">
+				<div class="column">
+					<div class="card">
+						<div class="container">
+							<h2>Google</h2>
+							<p class="title">3.8 STARS</p>
+							<h4>Highest rated in wellness initiatives, maternity leave, and family support.</h4>
+							<a href="https://www.inhersight.com/company/google" target="_blank">Learn More</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="card">
+						<div class="container">
+							<h2>Accenture</h2>
+							<p class="title">3.4 STARS</p>
+							<h4>Highest rated in maternity leave, paid time off, and equal opportunity.</h4>
+							<a href="https://www.inhersight.com/company/accenture" target="_blank">Learn More</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="card">
+						<div class="container">
+							<h2>Apple</h2>
+							<p class="title">3.5 STARS</p>
+							<h4>Highest rated in maternity leave, wellness initiatives, and colleagues</h4>
+							<a href="https://www.inhersight.com/company/apple" target="_blank">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<a class="top-link hide" href="" id="js-top"> <img src="assets/uploadtwo.png"> Go To Top
+		</a>
+		<script src='/registration/js/projects.js'></script>
+		</section>
+		<section id="inspiration">
+			<div>
+				<h2>INSPIRATION</h2>
+				<h3>Listen, watch, and read stories of amazing female figures in STEM!</h3>
+				<p align="center">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ga4Gh36dnfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe src="https://open.spotify.com/embed/episode/5Bp2lF8SdgfyCMroFDR0Yz?theme=0" width="60%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+					<iframe src="https://open.spotify.com/embed/episode/494vtHaxxTmbdp5pITaAfD?theme=0" width="80%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+					<a href="https://www.accenture.com/gb-en/blogs/blogs-inspirational-women-stem" target="_blank">Inspirational Women in STEM</a>
+				</p>
+			</div>
+		</section>
+		<a class="top-link hide" href="" id="js-top"> <img src="assets/uploadtwo.png"> Go To Top
+		</a>
+		<section id="resources">
+			<div>
+				<h2>RESOURCES</h2>
+				<h3>Interested in pursuing STEM? Here are some resources to get you started!</h3>
+				<p align="center">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/D2KgczKKwKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</p>
+				<a href="https://www.codecademy.com/" target="_blank">LEARN CODING WITH CODECADEMY</a>
+				<a href="https://www.code.org/" target="_blank">LEARN CODING WITH CODE.ORG</a>
+			</div>
+		</section>
+		<a class="top-link hide" href="" id="js-top"> <img src="assets/uploadtwo.png"> Go To Top
+		</a>
+		<section id="contact">
+			<h2>Contact</h2>
+			<form action='/survey/checkout' method='post' enctype="multipart/form-data">
+				<input type="text" name="Name" placeholder='Your name' required>
+				<input type="email" name="email" placeholder='Your email' required>
+				<textarea placeholder='Write a message here' required></textarea>
+				<button>Send Message</button>
+				<input type='hidden' name='redirecturl' value='thankyou.html'>
+				<input type='hidden' name='survey' value='Contact'>
+			</form>
+		</section>
+		<footer>
+			<div class="links">
+				<a href="https://www.github.com"><img src="assets/github.svg"></a>
+				<a href="https://www.youtube.com"><img src="assets/youtube.svg"></a>
+			</div>
+			<div>Copyright © 2021 Femploy</div>
+		</footer>
+	</body>
+
+</html>
